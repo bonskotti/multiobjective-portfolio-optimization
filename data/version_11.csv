@@ -1,0 +1,362 @@
+,Company,ESG score,Clean200,ScienceBasedTargets,Country,Symbol NQ,Symbol NYSE,Symbol NQ North,Beta,Dividend yield,P/E
+12, ABB Ltd ,0.44,1.0,1.0,Switzerland,na,ABB,ABB,1.149544,3.02,25.985073
+13, Abbott Laboratories ,0.85,0.0,0.0,na,na,DLB,na,0.880157,1.05,29.787233
+14, AbbVie Inc ,0.76,0.0,0.0,na,na,ABBV,na,0.814669,3.85,15.831438
+21, Accenture PLC ,0.54,1.0,1.0,Ireland,na,ACN,na,1.037328,1.79,22.891064
+42, Advance Auto Parts Inc ,0.12,0.0,0.0,na,na,AAP,na,1.07793,0.17,17.191519
+50, Aegon NV ,0.45,0.0,0.0,na,na,AEG,na,1.439513,5.86,2.1611722
+58, Aflac Inc ,0.42,0.0,0.0,na,na,AFL,na,0.939751,2.26,8.1918745
+61, AGCO Corp ,0.12,0.0,0.0,na,na,AGCO,na,1.13425,0.91,30.521473
+68, Agnico Eagle Mines Ltd ,0.38,0.0,0.0,na,na,AEM,na,0.237066,0.97,30.60804
+92, Alaska Air Group Inc ,0.56,0.0,0.0,na,na,ALK,na,1.5363449999999998,1.6800000000000002,4.52504
+93, Albemarle Corp ,0.22,0.0,0.0,na,na,ALB,na,1.533071,1.6400000000000001,12.256972
+111, Allegion PLC ,0.14,0.0,0.0,na,na,ALLE,na,1.297969,0.77,28.129915
+116, Allison Transmission Holdings Inc ,0.1,0.0,0.0,na,na,ALSN,na,1.3988209999999999,1.6600000000000001,6.8187375
+138, Ambev SA ,0.31,0.0,1.0,Brazil,na,ABEV,na,0.710661,2.2800000000000002,11.363636
+142, Amdocs Ltd ,0.48,0.0,1.0,United States of America (USA),DOX,na,na,0.605762,1.4100000000000001,17.155937
+145, Ameren Corp ,0.28,0.0,0.0,na,na,AEE,na,0.347085,3.1,21.98209
+147, American Airlines Group Inc ,0.3,0.0,0.0,na,AAL,na,na,2.041912,1.1,2.7203166
+148, American Campus Communities Inc ,0.1,0.0,0.0,na,na,ACC,na,0.8945639999999999,3.95,30.772398
+149, American Eagle Outfitters Inc ,0.1,0.0,1.0,United States of America (USA),na,AEO,na,1.287491,3.16,6.098214
+151, American Express Co ,0.36,0.0,0.0,na,na,AXP,na,1.2095609999999999,1.49,12.542603
+154, American Tower Corp ,0.18,0.0,0.0,na,na,AMT,na,0.40144,1.79,57.69104
+155, American Water Works Co Inc ,0.45,0.0,0.0,na,na,AWK,na,0.25016299999999997,1.92,36.446064
+156, Ameriprise Financial Inc ,0.25,0.0,0.0,na,na,AMP,na,1.899803,2.5,7.7212644
+159, Amgen Inc ,0.57,0.0,0.0,na,AMGN,na,na,0.9043869999999999,2.49,18.34472
+164, Amphenol Corp ,0.13,0.0,0.0,na,na,APH,na,1.178127,0.91,23.473167
+174, Anheuser-Busch InBev SA/NV ,0.31,0.0,0.0,na,na,BUD,na,1.111246,3.44,9.253698
+184, Aon PLC ,0.2,0.0,0.0,na,na,AON,na,0.9318919999999999,1.05,27.574614
+193, Apple Inc ,0.29,0.0,0.0,na,AAPL,na,na,1.173542,1.6,22.466852
+195, Aptiv PLC ,0.49,1.0,0.0,na,na,APTV,na,2.071381,1.29,16.296104
+196, Aramark ,0.13,0.0,0.0,na,na,ARMK,na,1.479371,1.12,18.092783
+203, Archer-Daniels-Midland Co ,0.66,0.0,0.0,na,na,ADM,na,1.032743,2.93,14.75
+212, Arthur J Gallagher & Co ,0.24,0.0,0.0,na,na,AJG,na,0.866404,2.59,21.386364
+239, AstraZeneca PLC ,0.81,0.0,1.0,United Kingdom (UK),na,AZN,AZN,0.215197,4.03,99.76608
+264, Automatic Data Processing Inc ,0.26,0.0,0.0,na,ADP,na,na,0.905697,2.1,24.594594999999998
+271, Avery Dennison Corp ,0.18,0.0,0.0,na,na,AVY,na,1.313032,1.97,30.403362
+301, Ball Corp ,0.74,1.0,1.0,United States of America (USA),na,BLL,na,0.571054,0.79,39.319275
+317, Banco Santander Brasil SA ,0.29,0.0,0.0,na,na,BSBR,na,0.9540219999999999,3.34,5.2272725
+318, Banco Santander Chile ,0.67,0.0,0.0,na,na,BSAC,na,0.37059000000000003,4.88,6.995
+341, Bank of Nova Scotia ,0.74,0.0,0.0,na,na,BNS,na,1.056478,4.39,7.379001
+344, Bank OZK ,0.12,0.0,0.0,na,OZK,na,na,1.8729529999999999,1.98,7.8616852999999995
+358, Barrick Gold Corp ,0.79,0.0,0.0,na,GOLD,GOLD,na,-0.018272,1.04,12.001772
+386, Best Buy Co Inc ,0.53,0.0,1.0,United States of America (USA),na,BBY,na,1.2966600000000001,2.5300000000000002,12.500869
+400, Bio-Techne Corp ,0.17,0.0,0.0,na,TECH,na,na,1.053045,1.0,40.55656
+423, Booz Allen Hamilton Holding Corp ,0.27,0.0,0.0,na,na,BAH,na,0.853962,1.65,24.8233
+425, BorgWarner Inc ,0.33,0.0,0.0,na,na,BWA,na,1.749836,1.46,7.501385
+430, BP PLC ,0.49,0.0,0.0,na,na,BP,na,0.6984800000000001,6.52,19.788492
+446, British American Tobacco PLC ,0.83,0.0,1.0,United Kingdom (UK),na,BTI,na,0.639513,4.64,1.6767466999999998
+451, Broadridge Financial Solutions Inc ,0.19,0.0,0.0,na,na,BR,na,0.7675179999999999,1.71,31.119799
+452, Brookfield Asset Management Inc ,0.16,0.0,0.0,na,na,BAM,na,1.134551,1.38,18.390076
+468, Cabot Corp ,0.55,0.0,0.0,na,na,CBT,na,1.660117,2.45,13.936464
+473, CAE Inc ,0.25,0.0,0.0,na,na,CAE,na,1.8754149999999998,1.57,13.94
+480, Campbell Soup Co ,0.64,0.0,0.0,na,na,CPB,na,0.369351,2.87,10.592778
+481, Canadian Imperial Bank of Commerce ,0.66,0.0,0.0,na,na,CM,na,1.088039,4.77,6.39187
+484, Canadian Pacific Railway Ltd ,0.36,1.0,1.0,Canada,na,CP,na,0.906146,0.9,18.299887
+490, Cantel Medical Corp ,0.1,0.0,0.0,na,na,CMD,na,1.3228550000000001,0.2,55.778687
+502, Carlsberg A/S ,0.27,0.0,1.0,Denmark,na,na,CARL-B.CO,0.727051,1.72,18.603687
+504, Carnival Corp ,0.54,0.0,0.0,na,na,CUK,na,1.981663,3.17,3.9566498
+511, Castellum AB ,0.79,0.0,1.0,Sweden,na,na,CAST.ST,0.527659,3.18,9.348804
+524, CDW Corp/DE ,0.11,0.0,0.0,na,CDW,na,na,1.199738,0.93,20.995993
+525, Celanese Corp ,0.19,0.0,0.0,na,na,CE,na,1.3896519999999999,1.88,11.515638
+549, CF Industries Holdings Inc ,0.26,0.0,0.0,na,na,CF,na,1.231827,3.21,12.556054
+567, Chemed Corp ,0.08,0.0,0.0,na,na,CHE,na,0.853962,0.49,34.2577
+570, Chevron Corp ,0.4,0.0,0.0,na,na,CVX,na,1.182056,4.12,56.500004
+593, China Life Insurance Co Ltd ,0.19,0.0,0.0,na,na,LFC,na,1.37386,1.8900000000000001,15.503759
+610, China Petroleum & Chemical Corp ,0.29,0.0,0.0,na,na,SNP,na,1.310638,6.34,5.3516483
+621, China Southern Airlines Co Ltd ,0.14,0.0,0.0,na,na,ZNH,na,1.9708200000000002,1.58,10.72
+625, China Telecom Corp Ltd ,0.21,0.0,0.0,na,na,CHA,na,0.942857,2.86,9.622857
+636, Chubb Ltd ,0.46,0.0,0.0,na,na,CB,na,0.8441379999999999,2.12,12.965225
+640, Chunghwa Telecom Co Ltd ,0.75,0.0,0.0,na,na,CHT,na,-0.013078999999999999,4.47,23.927631
+641, Church & Dwight Co Inc ,0.24,0.0,0.0,na,na,CHD,na,0.246889,1.44,29.241802
+659, Cigna Corp ,0.78,0.0,0.0,na,na,CI,na,0.660117,0.02,14.002976
+664, Cincinnati Financial Corp ,0.18,0.0,0.0,na,CINF,na,na,0.8258019999999999,2.68,6.4900823
+668, Cintas Corp ,0.12,0.0,0.0,na,CTAS,na,na,1.290111,1.0,22.711594
+693, CNH Industrial NV ,0.88,0.0,1.0,United Kingdom (UK),na,CNHI,na,1.583497,1.9,5.971429
+694, CNOOC Ltd ,0.28,0.0,0.0,na,na,CEO,na,1.266869,4.88,9.526087
+702, Coca-Cola European Partners PLC ,0.89,0.0,1.0,United Kingdom (UK),na,CCEP,na,0.574951,2.54,23.662552
+711, Colgate-Palmolive Co ,0.82,0.0,0.0,na,na,CL,na,0.601833,2.32,25.963636
+717, Comcast Corp ,0.48,0.0,0.0,na,CMCSA,CCZ,na,1.001309,1.74,13.130742
+718, Comerica Inc ,0.37,0.0,0.0,na,na,CMA,na,1.891944,2.19,5.9699
+733, ConocoPhillips ,0.67,0.0,0.0,na,na,COP,na,1.493778,3.02,5.6390624
+734, Consolidated Edison Inc ,0.18,0.0,0.0,na,na,ED,na,0.27439399999999997,3.5700000000000003,20.254902
+748, Corning Inc ,0.13,0.0,1.0,United States of America (USA),na,GLW,na,1.183366,2.36,19.45693
+758, Costco Wholesale Corp ,0.18,0.0,0.0,na,COST,na,na,0.747871,1.01,36.453808
+763, Cousins Properties Inc ,0.11,0.0,0.0,na,na,CUZ,na,1.13032,3.07,23.74787
+768, Crane Co ,0.11,0.0,0.0,na,na,CR,na,1.626719,1.9500000000000002,23.181818
+769, Credicorp Ltd ,0.45,0.0,0.0,na,na,BAP,na,0.89129,2.02,11.665363
+775, CRH PLC ,0.8,0.0,1.0,Ireland,na,CRH,na,0.930091,2.34,6.8657794
+787, CSX Corp ,0.6,1.0,1.0,United States of America (USA),CSX,na,na,1.23903,1.74,15.370906
+790, CubeSmart ,0.08,0.0,0.0,na,na,CUBE,na,0.389652,3.46,28.727274
+792, Cummins Inc ,0.75,0.0,1.0,United States of America (USA),na,CMI,na,1.070072,2.92,10.2051115
+793, Curtiss-Wright Corp ,0.09,0.0,0.0,na,na,CW,na,1.35036,0.5700000000000001,13.213986
+795, CVS Health Corp ,0.72,0.0,1.0,United States of America (USA),na,CVS,na,0.766208,2.43,12.265748
+800, CyrusOne Inc ,0.07,0.0,0.0,na,CONE,na,na,0.35428899999999997,3.05,202.08333
+833, Deere & Co ,0.32,0.0,0.0,na,na,DE,na,1.034053,2.19,13.515649
+836, Delta Air Lines Inc ,0.55,0.0,0.0,na,na,DAL,na,1.590045,1.88,4.127072
+842, DENTSPLY SIRONA Inc ,0.21,0.0,0.0,na,XRAY,na,na,1.0805500000000001,0.62,33.598293
+854, Diageo PLC ,0.86,0.0,1.0,United Kingdom (UK),na,DEO,na,0.289969,2.6,20.77764
+872, Dollar General Corp ,0.16,0.0,0.0,na,na,DG,na,0.37982899999999997,1.04,26.503012
+887, Dover Corp ,0.19,1.0,0.0,na,na,DOV,na,1.465618,2.21,17.837255
+894, DSV PANALPINA A/S ,0.29,0.0,1.0,Denmark,na,na,DSV.CO,0.832218,0.46,35.869564
+908, East West Bancorp Inc ,0.12,0.0,0.0,na,EWBC,na,na,1.865094,1.85,6.7624135
+910, Eastman Chemical Co ,0.31,0.0,0.0,na,na,EMN,na,1.483955,2.62,10.45073
+918, Ecolab Inc ,0.71,1.0,1.0,United States of America (USA),na,ECL,na,0.842174,1.1,33.786118
+923, Edison International ,0.21,0.0,0.0,na,na,EIX,na,0.53569,3.14,15.716181
+936, Electrolux AB ,0.67,1.0,1.0,Sweden,na,na,ELUX-B.ST,1.339817,2.9699999999999998,14.627966
+939, Eli Lilly & Co ,0.3,0.0,0.0,na,na,LLY,na,0.167648,2.38,26.993042
+941, Elisa OYJ ,0.37,0.0,1.0,Finland,na,na,ELISA.HE,0.182978,4.23,28.69877
+948, Emerson Electric Co ,0.25,1.0,0.0,na,na,EMR,na,1.499672,3.2,15.350827
+968, Encompass Health Corp ,0.12,0.0,0.0,na,na,EHC,na,0.9613619999999999,1.92,18.861181
+970, Enel Americas SA ,0.81,0.0,0.0,na,na,ENIA,na,0.7962739999999999,3.63,6.168
+978, EnerSys ,0.1,0.0,0.0,na,na,ENS,na,1.586771,1.04,14.763079
+983, Eni SpA ,0.44,0.0,0.0,na,na,E,na,0.9100300000000001,6.07,4.8491383
+987, Entergy Corp ,0.75,0.0,0.0,na,na,ETR,na,0.64702,4.22,15.480951
+997, Equinor ASA ,0.47,0.0,0.0,na,na,EQNR,na,0.787841,5.01,23.072725
+999, Equity LifeStyle Properties Inc ,0.08,0.0,0.0,na,na,ELS,na,0.502292,2.15,47.210938
+1000, Equity Residential ,0.27,0.0,0.0,na,na,EQR,na,0.646365,3.04,24.63997
+1016, Everest Re Group Ltd ,0.14,0.0,0.0,na,na,RE,na,0.610347,2.2,6.9153842999999995
+1019, Eversource Energy ,0.3,0.0,0.0,na,na,ES,na,0.406024,3.03,30.807828999999998
+1025, Exelon Corp ,0.78,0.0,0.0,na,EXC,na,na,0.515389,3.46,12.159468
+1030, Extra Space Storage Inc ,0.07,0.0,0.0,na,na,EXR,na,0.32874899999999996,3.34,27.477589
+1032, Exxon Mobil Corp ,0.37,0.0,0.0,na,na,XOM,na,1.269155,4.02,13.022633
+1035, Fabege AB ,0.27,0.0,1.0,Sweden,na,na,FABG.ST,0.5392089999999999,2.21,5.849861
+1044, Fastenal Co ,0.14,0.0,0.0,na,FAST,na,na,1.122462,2.64,25.920862
+1060, Fidelity National Information Services Inc ,0.15,0.0,0.0,na,na,FIS,na,0.685658,1.28,190.5
+1069, First Financial Bankshares Inc ,0.11,0.0,0.0,na,FFNW,FCF,na,0.618205,1.83,8.582524
+1076, FirstEnergy Corp ,0.33,0.0,0.0,na,na,FE,na,0.506876,4.1,34.211803
+1088, Flowserve Corp ,0.23,0.0,0.0,na,na,FLS,na,1.896529,1.65,13.22798
+1092, FMC Corp ,0.3,0.0,0.0,na,na,FMC,na,1.297314,1.24,24.364641
+1105, Fortis Inc/Canada ,0.24,0.0,0.0,na,na,FTS,na,0.141196,3.33,22.022017
+1108, Fortum OYJ ,0.38,0.0,1.0,Finland,na,na,FORTUM.HE,0.966565,6.68,8.908873
+1109, Fortune Brands Home & Security Inc ,0.19,0.0,0.0,na,na,FBHS,na,1.696791,1.28,14.287582
+1114, Franco-Nevada Corp ,0.37,0.0,0.0,na,na,FNV,na,0.264119,1.32,74.45355
+1127, Fulton Financial Corp ,0.13,0.0,0.0,na,FULT,na,na,1.132285,2.7,8.857868
+1137, Gaming and Leisure Properties Inc ,0.06,0.0,0.0,na,GLPI,na,na,1.067452,6.97,13.81005
+1140, Garmin Ltd ,0.13,0.0,0.0,na,GRMN,na,na,1.041912,3.7199999999999998,15.815632
+1149, General Electric Co ,0.29,0.0,0.0,na,na,POR,na,0.44007799999999997,2.95,18.706167
+1151, General Motors Co ,0.76,0.0,0.0,na,na,GM,na,1.510805,4.23,4.8030634
+1155, Gentex Corp ,0.16,0.0,0.0,na,GNTX,na,na,1.184675,1.9100000000000001,14.562462
+1159, Genuine Parts Co ,0.15,0.0,0.0,na,na,GPC,na,1.041912,2.87,17.695755
+1162, Gerdau SA ,0.1,0.0,0.0,na,na,GGB,na,2.086008,1.56,23.493977
+1173, GlaxoSmithKline PLC ,0.9,0.0,1.0,United Kingdom (UK),na,GSK,na,0.41215799999999997,5.32,42.842743
+1188, Gold Fields Ltd ,0.79,0.0,0.0,na,na,GFI,na,0.125644,1.3,42.94737
+1190, Goldman Sachs Group Inc ,0.39,0.0,0.0,na,na,GSBD,na,1.318925,8.16,16.57748
+1194, Graco Inc ,0.11,0.0,0.0,na,na,GGG,na,0.768172,1.37,23.361256
+1201, Graphic Packaging Holding Co ,0.2,1.0,0.0,na,na,GPK,na,1.35036,1.81,27.751606
+1219, Grupo Aval Acciones y Valores SA ,0.07,0.0,0.0,na,na,AVAL,na,0.638129,5.57,5.3289475
+1269, Hanesbrands Inc ,0.23,0.0,0.0,na,na,HBI,na,1.407334,2.67,5.1463413
+1305, Healthcare Services Group Inc ,0.08,0.0,0.0,na,HCSG,AMN,na,0.6280279999999999,2.07,23.32677
+1318, Hennes & Mauritz AB ,0.69,0.0,1.0,Sweden,na,na,HM-B.ST,1.120972,4.74,14.172915
+1328, Hexcel Corp ,0.18,0.0,0.0,na,na,HXL,na,1.499672,0.8200000000000001,8.738795
+1351, HollyFrontier Corp ,0.22,0.0,0.0,na,na,HFC,na,1.593975,3.38,6.1952276
+1357, Honda Motor Co Ltd ,0.8,0.0,0.0,na,na,HMC,na,1.103343,3.0,3.9230237
+1365, Hormel Foods Corp ,0.34,0.0,0.0,na,na,HRL,na,-0.07924,1.76,25.751383
+1375, HP Inc ,0.86,1.0,1.0,United States of America (USA),na,HPQ,na,1.354289,3.14,7.4183974
+1382, Hubbell Inc ,0.11,0.0,0.0,na,na,HUBB,na,1.395546,2.43,16.337893
+1384, Hudson Pacific Properties Inc ,0.14,0.0,0.0,na,na,HPP,na,0.977734,2.6,80.58182
+1389, Humana Inc ,0.62,0.0,0.0,na,na,HUM,na,0.78258,0.64,18.362686
+1391, Huntington Ingalls Industries Inc ,0.16,0.0,0.0,na,na,HII,na,1.2252779999999999,1.28,13.914027
+1392, Huntsman Corp ,0.2,0.0,0.0,na,na,HUN,na,2.194499,2.7800000000000002,6.4899297
+1394, Husqvarna AB ,0.28,0.0,1.0,Sweden,na,na,HUSQ-B.ST,1.136778,2.4,14.853294
+1420, ICA Gruppen AB ,0.66,0.0,1.0,Sweden,na,na,ICA.ST,0.069908,3.31,26.761223
+1427, IDEX Corp ,0.13,0.0,0.0,na,na,IEX,na,1.089063,1.32,28.02202
+1436, Illinois Tool Works Inc ,0.31,0.0,0.0,na,na,ITW,na,1.178127,2.17,20.443153
+1470, Infosys Ltd ,0.71,0.0,0.0,na,na,INFY,na,0.157748,2.55,16.014626
+1479, Ingredion Inc ,0.17,0.0,0.0,na,na,INGR,na,0.8055,2.08,13.143556
+1491, Intel Corp ,0.39,1.0,0.0,na,INTC,na,na,0.829731,2.66,11.488949
+1494, Interactive Brokers Group Inc ,0.11,0.0,0.0,na,IBKR,na,na,0.7544200000000001,0.9,24.002485
+1496, Intercontinental Exchange Inc ,0.3,0.0,0.0,na,na,ICE,na,0.502292,1.18,25.999998
+1497, InterContinental Hotels Group PLC ,0.77,0.0,1.0,United Kingdom (UK),na,IHG,na,1.006686,1.96,20.03346
+1501, International Business Machines Corp ,0.46,0.0,0.0,na,na,IBM,na,1.2685,3.95,12.35463
+1513, Intuit Inc ,0.27,0.0,1.0,United States of America (USA),INTU,na,na,0.99738,0.91,42.663433
+1521, Invesco Ltd ,0.29,0.0,0.0,na,na,IVZ,na,1.777996,4.59,7.550823
+1535, Iron Mountain Inc ,0.52,0.0,1.0,United States of America (USA),na,IRM,na,0.795022,6.47,25.301075
+1538, Israel Chemicals Ltd ,0.32,0.0,0.0,na,na,ICL,na,0.494649,3.94,9.675675
+1549, ITT Inc ,0.2,0.0,0.0,na,na,ITT,na,1.636542,1.12,13.483238
+1555, Jack Henry & Associates Inc ,0.12,0.0,0.0,na,JKHY,na,na,0.633922,1.16,43.496445
+1557, James Hardie Industries PLC ,0.15,0.0,0.0,na,na,JHX,na,0.9215800000000001,2.51,21.801126
+1579, Jefferies Financial Group Inc ,0.19,0.0,0.0,na,na,JEF,na,1.639816,1.6600000000000001,3.7205749
+1588, Johnson Controls International plc ,0.67,1.0,1.0,Ireland,na,JCI,na,1.258677,2.77,4.2610683
+1591, Jones Lang LaSalle Inc ,0.57,0.0,0.0,na,na,JLL,na,1.9083160000000001,0.51,9.427783
+1617, KAR Auction Services Inc ,0.08,0.0,0.0,na,na,KAR,na,0.878192,3.17,9.515109
+1629, Kellogg Co ,0.74,0.0,1.0,United States of America (USA),na,K,na,0.5612309999999999,3.16,22.892857
+1630, Kemper Corp ,0.1,0.0,0.0,na,na,KMPR,na,0.919449,1.96,8.243719
+1632, Kennametal Inc ,0.13,0.0,0.0,na,na,KMT,na,2.26588,2.46,14.856414000000001
+1648, Kimberly-Clark Corp ,0.31,1.0,1.0,United States of America (USA),na,KMB,na,0.48461000000000004,3.13,20.680292
+1667, KLA Corp ,0.22,0.0,0.0,na,KLAC,na,na,1.40537,2.58,23.136925
+1685, Kone OYJ ,0.46,1.0,1.0,Finland,na,na,KNEBV.HE,0.612158,3.39,30.523321
+1690, Koninklijke Philips NV ,0.82,1.0,0.0,na,na,PHG,na,0.931306,2.68,27.341772
+1732, Lam Research Corp ,0.33,0.0,0.0,na,LRCX,na,na,1.5101499999999999,1.46,19.193178
+1740, Las Vegas Sands Corp ,0.63,0.0,1.0,United States of America (USA),na,LVS,na,1.705304,4.97,15.908429
+1743, Lazard Ltd ,0.21,0.0,0.0,na,na,LAZ,na,1.842829,3.84,9.889299
+1744, Lear Corp ,0.21,0.0,0.0,na,na,LEA,na,1.622789,1.4100000000000001,6.9411764
+1748, Leggett & Platt Inc ,0.11,0.0,0.0,na,na,LEG,na,1.45907,3.16,12.097165
+1776, Lincoln Electric Holdings Inc ,0.21,0.0,0.0,na,LECO,na,na,1.250818,1.87,16.245728
+1777, Lincoln National Corp ,0.57,0.0,0.0,na,na,LNC,na,2.134905,1.98,6.8972597
+1778, Linde PLC ,0.86,0.0,1.0,United Kingdom (UK),na,LIN,na,0.750491,2.21,43.341297
+1781, Link REIT ,0.48,0.0,0.0,na,na,WSR,na,1.5442040000000001,8.94,9.23345
+1790, Lloyds Banking Group PLC ,0.43,0.0,0.0,na,na,LYG,na,1.122796,4.33,4.8
+1793, Lockheed Martin Corp ,0.7,0.0,0.0,na,na,LMT,na,0.9593969999999999,2.59,17.324045
+1794, Loews Corp ,0.16,0.0,0.0,na,na,L,na,0.901768,0.56,10.553746
+1818, LyondellBasell Industries NV ,0.26,0.0,0.0,na,na,LYB,na,1.5677789999999998,4.01,5.224426
+1843, ManpowerGroup Inc ,0.62,0.0,0.0,na,na,MAN,na,1.838244,2.04,9.940718
+1844, Manulife Financial Corp ,0.53,0.0,0.0,na,na,MFC,na,1.341362,3.63,12.361261
+1848, Marathon Oil Corp ,0.32,0.0,0.0,na,na,MRO,na,2.862475,2.18,8.355932
+1849, Marathon Petroleum Corp ,0.45,0.0,0.0,na,na,MPC,na,2.079895,2.93,6.488665
+1855, Marriott Vacations Worldwide Corp ,0.14,0.0,0.0,na,na,VAC,na,2.18795,1.5,24.119741
+1856, Marsh & McLennan Cos Inc ,0.21,0.0,0.0,na,na,MMC,na,0.845448,1.85,27.35777
+1857, Martin Marietta Materials Inc ,0.16,0.0,0.0,na,na,MLM,na,1.074656,0.89,18.20842
+1862, Marvell Technology Group Ltd ,0.12,0.0,0.0,na,MRVL,na,na,0.9495739999999999,1.55,11.594017000000001
+1863, Masco Corp ,0.23,0.0,0.0,na,na,MAS,na,1.434184,1.18,12.4070635
+1867, Mastercard Inc ,0.58,0.0,1.0,United States of America (USA),na,MA,na,1.072691,0.59,32.58942
+1870, Maxim Integrated Products Inc ,0.27,0.0,0.0,na,MXIM,na,na,1.364767,3.06,18.838188
+1884, Medical Properties Trust Inc ,0.05,0.0,0.0,na,na,MPW,na,0.780615,6.52,18.241379
+1890, Medtronic PLC ,0.67,0.0,0.0,na,na,MDT,na,0.703994,2.02,24.763092
+1896, Melco Resorts & Entertainment Ltd ,0.2,0.0,0.0,na,MLCO,na,na,1.9626709999999998,1.6400000000000001,19.521963
+1899, Merck & Co Inc ,0.4,0.0,0.0,na,na,MRK,na,0.5638500000000001,2.99,21.372704
+1908, Methanex Corp ,0.24,0.0,0.0,na,MEOH,na,na,2.370431,2.88,13.550939
+1914, Metso OYJ ,0.31,1.0,1.0,Finland,na,na,METSO.HE,1.502127,3.84,11.415
+1922, Microchip Technology Inc ,0.24,0.0,0.0,na,MCHP,na,na,1.479371,2.12,32.453503
+1924, Microsoft Corp ,0.57,0.0,1.0,United States of America (USA),MSFT,na,na,0.962017,1.97,30.40411
+1927, Millicom International Cellular SA ,0.28,0.0,0.0,na,TIGO,na,TIGO SDB,0.946299,4.5,17.73252
+1948, Mitsubishi UFJ Financial Group Inc ,0.49,0.0,0.0,na,na,MUFG,na,1.390881,3.07,4.476744
+1956, Mizuho Financial Group Inc ,0.65,0.0,0.0,na,na,MFG,na,1.015197,3.95,5.1576576
+1959, Mobile TeleSystems PJSC ,0.2,0.0,0.0,na,na,MBT,na,1.031434,9.81,67.76859
+1973, Monolithic Power Systems Inc ,0.08,0.0,0.0,na,MPWR,na,na,1.2200389999999999,0.98,78.16806
+1988, MSA Safety Inc ,0.09,0.0,0.0,na,na,MSA,na,1.13163,1.92,28.408047
+1989, MSC Industrial Direct Co Inc ,0.17,0.0,0.0,na,na,MSM,na,0.9495739999999999,2.65,11.823651
+1990, MSCI Inc ,0.18,0.0,0.0,na,na,MSCI,na,0.984282,1.05,49.300457
+2009, National Grid PLC ,0.44,0.0,1.0,United Kingdom (UK),na,NGG,na,0.169604,5.12,9.026398
+2010, National Instruments Corp ,0.16,0.0,0.0,na,NATI,na,na,1.009168,2.3,30.885246
+2026, Neste Oyj ,0.83,0.0,1.0,Finland,na,na,NESTE.HE,0.5379929999999999,2.52,13.459091
+2044, New York Times Co ,0.08,0.0,0.0,na,na,NYT,na,0.9371309999999999,0.9,36.86747
+2046, Newell Brands Inc ,0.13,0.0,0.0,na,NWL,na,na,1.138834,3.17,51.230156
+2047, NewMarket Corp ,0.07,0.0,0.0,na,na,NEU,na,0.51015,1.57,16.59929
+2054, Nexstar Media Group Inc ,0.09,0.0,0.0,na,NXST,na,na,1.853307,1.67,12.358333
+2112, Norfolk Southern Corp ,0.33,0.0,0.0,na,na,NSC,na,1.392927,2.14,15.679156
+2118, Northrop Grumman Corp ,0.63,0.0,0.0,na,na,NOC,na,0.8336600000000001,1.52,25.666414
+2121, Novartis AG ,0.74,0.0,1.0,Switzerland,na,NVS,na,0.461398,3.31,17.602293
+2124, Novo Nordisk A/S ,0.65,0.0,1.0,Denmark,na,NVO,NOVO-B.CO,0.415805,2.36,26.364746
+2126, Novozymes A/S ,0.42,0.0,1.0,Denmark,na,na,NZYM-B.CO,0.6534949999999999,1.32,28.891916
+2132, Nu Skin Enterprises Inc ,0.13,0.0,0.0,na,na,NUS,na,0.8375900000000001,2.94,8.490323
+2134, Nucor Corp ,0.13,0.0,0.0,na,na,NUE,na,1.512115,2.91,9.151764
+2137, Nutrien Ltd ,0.53,0.0,0.0,na,na,NTR,na,0.7673669999999999,4.38,20.335293
+2139, NVIDIA Corp ,0.72,0.0,0.0,na,NVDA,na,na,1.4675829999999999,0.62,64.06858
+2173, Open Text Corp ,0.13,0.0,0.0,na,OTEX,na,na,0.711853,1.53,30.512394
+2174, Oracle Corp ,0.29,0.0,0.0,na,na,ORCL,na,0.9030769999999999,1.52,16.669811
+2178, Orange SA ,0.43,0.0,1.0,France,na,ORAN,na,0.384802,4.6,13.9155245
+2194, Oshkosh Corp ,0.77,0.0,0.0,na,na,OSK,na,1.775376,1.37,8.1070385
+2203, Owens Corning ,0.9,0.0,1.0,United States of America (USA),na,OC,na,1.5507529999999998,1.4100000000000001,10.081521
+2205, PACCAR Inc ,0.28,0.0,0.0,na,PCAR,na,na,1.151931,1.62,11.08046
+2219, Parker-Hannifin Corp ,0.27,1.0,0.0,na,na,PH,na,1.633267,1.88,12.834046
+2232, Pembina Pipeline Corp ,0.28,0.0,0.0,na,na,PBA,na,1.756644,4.98,11.0256405
+2235, Pentair PLC ,0.21,0.0,0.0,na,na,PNR,na,1.234446,2.2,15.189448
+2261, Philip Morris International Inc ,0.69,0.0,1.0,United States of America (USA),na,PM,na,0.9155200000000001,4.76,15.004073
+2262, Phillips 66 ,0.18,0.0,0.0,na,na,PSXP,na,1.275703,4.61,10.083974
+2274, Pinnacle Financial Partners Inc ,0.14,0.0,0.0,na,PNFP,na,na,1.542239,0.97,8.076308
+2275, Pinnacle West Capital Corp ,0.33,0.0,0.0,na,na,PNW,na,0.387688,3.34,16.171907
+2276, Pioneer Natural Resources Co ,0.26,0.0,0.0,na,na,PXD,na,1.705959,0.2,17.211111
+2286, Polaris Inc ,0.15,0.0,0.0,na,na,PII,na,1.7413219999999998,2.41,12.178847
+2291, Pool Corp ,0.09,0.0,0.0,na,POOL,na,na,0.7779959999999999,1.13,33.648544
+2294, POSCO ,0.67,0.0,0.0,na,na,PKX,na,1.013872,3.63,3.998609
+2310, PPL Corp ,0.3,0.0,0.0,na,na,PPL,na,0.8631300000000001,4.78,10.755275
+2317, Principal Financial Group Inc ,0.3,0.0,1.0,United States of America (USA),PFG,na,na,1.664047,3.42,6.044355
+2318, Procter & Gamble Co ,0.6,0.0,1.0,United States of America (USA),na,PG,na,0.394891,3.09,63.997845
+2328, Provident Financial PLC ,0.61,0.0,0.0,na,PROV,PFS,na,0.8605100000000001,2.79,17.445356
+2339, Public Service Enterprise Group Inc ,0.68,0.0,0.0,na,na,PEG,na,0.538965,3.49,15.426427
+2357, QUALCOMM Inc ,0.49,0.0,0.0,na,QCOM,na,na,1.396201,3.56,21.577753
+2363, Quest Diagnostics Inc ,0.57,0.0,0.0,na,na,DGX,na,1.098886,1.9500000000000002,18.344805
+2373, Ralph Lauren Corp ,0.17,0.0,0.0,na,na,RL,na,1.353634,2.1,8.055196
+2377, Raymond James Financial Inc ,0.18,0.0,0.0,na,na,RJF,na,1.533726,1.32,8.348026
+2390, Regal Beloit Corp ,0.16,0.0,0.0,na,na,RBC,na,1.449901,1.4,11.662545
+2391, Regency Centers Corp ,0.44,0.0,0.0,na,REG,na,na,0.9390959999999999,3.24,24.793562
+2398, Reliance Steel & Aluminum Co ,0.08,0.0,0.0,na,na,RS,na,1.282252,2.2800000000000002,10.285714
+2401, RELX PLC ,0.69,0.0,0.0,na,na,RELX,na,0.252887,2.33,19.972425
+2411, ResMed Inc ,0.2,0.0,0.0,na,na,RMD,na,0.522593,1.6099999999999999,51.388447
+2414, Restaurant Brands International Inc ,0.15,0.0,0.0,na,na,QSR,na,1.292075,1.76,19.784355
+2425, Rio Tinto PLC ,0.69,0.0,0.0,na,na,RIO,na,0.662006,5.57,9.532596
+2427, Ritchie Bros Auctioneers Inc ,0.08,0.0,0.0,na,na,RBA,na,0.7583489999999999,2.08,31.558823
+2428, RLI Corp ,0.08,0.0,0.0,na,na,RLI,na,0.5265219999999999,1.24,48.184357
+2431, Robert Half International Inc ,0.26,0.0,0.0,na,na,RHI,na,1.491814,1.88,11.708743
+2446, Royal Caribbean Cruises Ltd ,0.61,0.0,0.0,na,na,RCL,na,2.282252,2.11,3.9865923
+2463, Sabra Health Care REIT Inc ,0.06,0.0,0.0,na,SBRA,na,na,1.328749,8.07,31.544718
+2464, Sabre Corp ,0.1,0.0,0.0,na,SABR,na,na,1.7400129999999998,2.27,9.738676
+2493, Sanofi ,0.82,0.0,1.0,France,SNY,na,na,0.440121,3.89,25.695875
+2498, SAP SE ,0.69,1.0,1.0,Germany,na,SAP,na,0.9641329999999999,1.45,28.14448
+2504, Sasol Ltd ,0.59,0.0,0.0,na,na,SSL,na,1.368608,4.02,3.4479463
+2516, Schnitzer Steel Industries Inc ,0.35,0.0,0.0,na,SCHN,na,na,1.37328,3.51,15.64868
+2518, Science Applications International Corp ,0.12,0.0,0.0,na,na,SAIC,na,1.101506,1.85,22.258486
+2521, Seagate Technology PLC ,0.32,0.0,1.0,Ireland,STX,na,na,1.246889,5.85,7.167281
+2522, Sealed Air Corp ,0.26,0.0,0.0,na,na,SEE,na,1.087753,1.42,16.83806
+2530, SEI Investments Co ,0.19,0.0,0.0,na,SEIC,na,na,1.371971,1.05,15.106745
+2565, Shaw Communications Inc ,0.14,0.0,0.0,na,na,SJR,na,0.5174409999999999,4.52,219.45946
+2603, Silicon Motion Technology Corp ,0.06,0.0,0.0,na,SIMO,na,na,1.217419,2.17,23.986893
+2628, Six Flags Entertainment Corp ,0.07,0.0,0.0,na,na,SIX,na,1.759004,5.22,7.5829387
+2634, SK Telecom Co Ltd ,0.84,0.0,1.0,South Korea,na,SKM,na,0.250891,4.17,4.210853
+2636, Skanska AB ,0.38,1.0,1.0,Sweden,na,na,SKA-B.ST,0.795136,4.11,11.757866
+2647, Smith & Nephew PLC ,0.64,0.0,0.0,na,na,SNN,na,0.243161,1.8900000000000001,28.172514
+2653, Snap-on Inc ,0.13,0.0,0.0,na,na,SNA,na,1.3313679999999999,1.85,9.8825035
+2662, Sociedad Quimica y Minera de Chile SA ,0.24,0.0,0.0,na,na,SQM,na,1.061558,3.48,20.25544
+2683, Southern Copper Corp ,0.45,0.0,0.0,na,na,SCCO,na,1.043222,2.16,15.998959
+2685, Southwest Airlines Co ,0.36,0.0,0.0,na,na,LUV,na,1.631303,0.92,6.8688526
+2686, Southwest Gas Holdings Inc ,0.28,0.0,0.0,na,na,SWX,na,0.224623,2.54,19.832487
+2703, SS&C Technologies Holdings Inc ,0.09,0.0,0.0,na,SSNC,na,na,1.383759,0.68,30.849398
+2716, Starbucks Corp ,0.47,0.0,0.0,na,SBUX,na,na,0.7177469999999999,1.6400000000000001,24.755978
+2725, STERIS PLC ,0.14,0.0,0.0,na,na,STE,na,0.857891,1.26,32.134785
+2727, STMicroelectronics NV ,0.83,1.0,0.0,na,na,STM,na,1.243768,2.69,56.58371
+2729, Stora Enso OYJ ,0.37,0.0,1.0,Finland,na,na,STERV.HE,1.330091,3.64,10.059171
+2730, STORE Capital Corp ,0.08,0.0,0.0,na,na,STOR,na,0.9941059999999999,4.17,12.744149
+2733, Stryker Corp ,0.18,0.0,0.0,na,na,SYK,na,0.8480679999999999,1.19,34.328465
+2747, Sumitomo Mitsui Financial Group Inc ,0.49,0.0,0.0,na,na,SMFG,na,1.297264,3.94,4.764595
+2753, Sun Life Financial Inc ,0.65,0.0,0.0,na,na,SLF,na,1.03073,3.61,11.760031
+2771, Swedish Match AB ,0.32,0.0,1.0,Sweden,na,na,SWMA.ST,0.184194,2.55,26.913633
+2785, Sysco Corp ,0.26,0.0,0.0,na,na,SYY,na,1.015062,2.42,15.191758
+2809, Target Corp ,0.41,0.0,1.0,United States of America (USA),na,TGT,na,0.649639,3.19,16.944838
+2821, TD Ameritrade Holding Corp ,0.18,0.0,0.0,na,AMTD,na,na,1.272429,1.8900000000000001,10.419978
+2823, TE Connectivity Ltd ,0.58,1.0,0.0,na,na,TEL,na,1.305828,1.99,14.881205
+2829, Teck Resources Ltd ,0.9,0.0,0.0,na,na,TECK,na,1.898671,1.82,1.6550951
+2834, Tele2 AB ,0.38,0.0,1.0,Sweden,na,na,TEL2-B.ST,0.603039,4.84,17.024378
+2837, Teleflex Inc ,0.17,0.0,0.0,na,na,TFX,na,0.971185,0.67,34.53312
+2839, Telefonica Brasil SA ,0.66,0.0,0.0,na,na,VIV,na,0.608402,5.17,5.845272
+2841, Telefonica SA ,0.72,0.0,0.0,na,na,TEF,na,1.08389,6.78,6.9339623
+2853, TELUS Corp ,0.82,0.0,0.0,na,na,TU,na,0.588039,4.3,8.530352
+2856, Tenaris SA ,0.28,0.0,0.0,na,na,TS,na,1.236474,3.19,10.111288
+2867, Texas Instruments Inc ,0.52,0.0,0.0,na,TXN,na,na,1.13163,2.45,21.834036
+2869, Textron Inc ,0.22,0.0,0.0,na,na,TXT,na,1.880157,0.17,7.7228575
+2875, Thermo Fisher Scientific Inc ,0.23,0.0,0.0,na,na,TMO,na,0.9954149999999999,0.34,36.033768
+2877, Thomson Reuters Corp ,0.26,0.0,1.0,Canada,na,TRI,na,0.408637,3.0,22.802446
+2879, Tiffany & Co ,0.31,0.0,0.0,na,na,TIF,na,1.246234,2.05,28.39326
+2910, TOTAL SA ,0.72,0.0,0.0,na,na,TOT,na,0.7677809999999999,5.47,8.189448
+2921, Tractor Supply Co ,0.16,0.0,0.0,na,TSCO,na,na,0.847413,1.27,21.42437
+2966, UGI Corp ,0.08,0.0,0.0,na,na,UGI,na,0.9371309999999999,2.22,13.289412
+2968, Ultrapar Participacoes SA ,0.26,0.0,0.0,na,na,UGP,na,0.8949659999999999,2.77,4.550669
+2970, UMB Financial Corp ,0.17,0.0,0.0,na,UMBF,na,na,1.060248,1.67,9.110887
+2979, Unilever NV ,0.9,0.0,1.0,United Kingdom (UK),na,UL,na,0.44620000000000004,3.05,20.411556
+2982, Union Pacific Corp ,0.28,0.0,1.0,United States of America (USA),na,UNP,na,1.075311,2.19,18.141562
+2988, United Microelectronics Corp ,0.83,0.0,0.0,na,na,UMC,na,0.518034,4.22,19.037035
+2990, United Parcel Service Inc ,0.62,0.0,0.0,na,na,UPS,na,0.948919,3.08,19.604696
+2998, Universal Health Services Inc ,0.13,0.0,0.0,na,na,UHS,na,1.13032,0.34,11.133625
+3003, UPM-Kymmene OYJ ,0.89,0.0,1.0,Finland,na,na,UPM.HE,1.075987,4.23,13.513514
+3004, US Bancorp ,0.34,0.0,0.0,na,BSRR,USB^P,na,1.182056,2.38,8.154867
+3010, Valmet OYJ ,0.82,0.0,1.0,Finland,na,na,VALMT.HE,0.8297869999999999,2.87,14.658921
+3014, Vedanta Ltd ,0.51,0.0,0.0,na,na,VEDL,na,1.8141100000000001,7.49,3.3881578
+3019, VEON Ltd ,0.37,0.0,0.0,na,VEON,na,na,1.649639,6.65,4.5915494
+3038, Visa Inc ,0.58,0.0,0.0,na,na,V,na,0.943025,0.63,30.54957
+3057, Vulcan Materials Co ,0.17,0.0,0.0,na,na,VMC,na,0.927963,0.73,22.017696
+3060, Walgreens Boots Alliance Inc ,0.27,0.0,0.0,na,WBA,na,na,0.713163,2.24,11.25
+3061, Walmart Inc ,0.28,0.0,0.0,na,na,WMT,na,0.281597,2.45,24.94027
+3064, Walt Disney Co ,0.25,0.0,0.0,na,na,DIS,na,1.100851,1.43,17.029621
+3083, Welltower Inc ,0.71,0.0,0.0,na,na,WELL,na,0.840864,4.95,14.445902
+3092, Western Union Co ,0.15,0.0,0.0,na,na,WU,na,0.983628,3.44,7.520325
+3093, Westinghouse Air Brake Technologies Corp ,0.12,0.0,0.0,na,na,WAB,na,1.521938,0.51,29.090908
+3094, Westpac Banking Corp ,0.83,0.0,1.0,Australia,na,WBK,na,0.854711,6.46,5.7965903
+3095, Westrock Co ,0.62,0.0,0.0,na,na,WRK,na,1.622789,3.39,8.698795
+3101, Wheaton Precious Metals Corp ,0.23,0.0,0.0,na,na,WPM,na,0.237541,1.4100000000000001,208.5263
+3103, Whirlpool Corp ,0.57,0.0,1.0,United States of America (USA),na,WHR,na,1.88867,2.74,5.6682925
+3109, Willis Towers Watson PLC ,0.16,0.0,0.0,na,WLTW,na,na,0.833005,1.75,22.097256
+3113, Wipro Ltd ,0.8,0.0,1.0,India,na,WIT,na,0.307173,0.68,11.902835
+3132, WPP PLC ,0.54,0.0,0.0,na,na,WPP,na,1.092401,4.54,3.4375315
+3150, Xylem Inc/NY ,0.66,0.0,0.0,na,na,XYL,na,1.123772,1.25,31.004522
+3189, Zimmer Biomet Holdings Inc ,0.32,0.0,0.0,na,na,ZBH,na,1.29535,0.8,21.288849
+3191, Zoetis Inc ,0.19,0.0,0.0,na,na,ZTS,na,0.788474,0.63,40.485535

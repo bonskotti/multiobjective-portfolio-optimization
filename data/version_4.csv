@@ -1,0 +1,78 @@
+,Unnamed: 0,Unnamed: 0.1,Company,ESG score,Clean200,ScienceBasedTargets,Country,Symbol NQ,Symbol NYSE,Symbol NQ North,Beta
+2,2,2, Advanced Micro Devices Inc ,32,0.0,1.0,United States of America (USA),AMD,na,na,2.3916169999999997
+3,3,3, AECOM ,18,0.0,1.0,United States of America (USA),na,ACM,na,1.738048
+5,5,5, Amdocs Ltd ,48,0.0,1.0,United States of America (USA),DOX,na,na,0.605762
+6,6,6, American Eagle Outfitters Inc ,10,0.0,1.0,United States of America (USA),na,AEO,na,1.287491
+7,7,7, AstraZeneca PLC ,81,0.0,1.0,United Kingdom (UK),na,AZN,AZN,0.21519699999999997
+8,8,8, AT&T Inc ,72,0.0,1.0,United States of America (USA),na,TBC,na,-1.0
+9,9,9, Ball Corp ,74,1.0,1.0,United States of America (USA),na,BLL,na,0.571054
+11,11,11, Best Buy Co Inc ,53,0.0,1.0,United States of America (USA),na,BBY,na,1.29666
+12,12,12, Biogen Inc ,83,0.0,1.0,United States of America (USA),BIIB,na,na,0.6758339999999999
+13,13,13, British American Tobacco PLC ,83,0.0,1.0,United Kingdom (UK),na,BTI,na,0.639513
+14,14,14, Caesars Entertainment Corp ,53,0.0,1.0,United States of America (USA),CZR,na,na,1.722331
+17,17,17, Carlsberg A/S ,27,0.0,1.0,Denmark,na,na,CARL B.CO,-1.0
+18,18,18, Castellum AB ,79,0.0,1.0,Sweden,na,na,CAST.ST,0.527659
+19,19,19, CNH Industrial NV ,88,0.0,1.0,United Kingdom (UK),na,CNHI,na,1.583497
+20,20,20, Coca-Cola European Partners PLC ,89,0.0,1.0,United Kingdom (UK),na,CCEP,na,0.574951
+21,21,21, Corning Inc ,13,0.0,1.0,United States of America (USA),na,GLW,na,1.183366
+23,23,23, CSX Corp ,60,1.0,1.0,United States of America (USA),CSX,na,na,1.2390299999999999
+24,24,24, Cummins Inc ,75,0.0,1.0,United States of America (USA),na,CMI,na,1.070072
+25,25,25, CVS Health Corp ,72,0.0,1.0,United States of America (USA),na,CVS,na,0.766208
+26,26,26, Dell Technologies Inc ,32,0.0,1.0,United States of America (USA),na,DELL,na,
+27,27,27, Diageo PLC ,86,0.0,1.0,United Kingdom (UK),na,DEO,na,0.28996900000000003
+28,28,28, DSV PANALPINA A/S ,29,0.0,1.0,Denmark,na,na,DSV.CO,0.832218
+29,29,29, Ecolab Inc ,71,1.0,1.0,United States of America (USA),na,ECL,na,0.842174
+30,30,30, Electrolux AB ,67,1.0,1.0,Sweden,na,na,ELUX B.ST,-1.0
+31,31,31, Elisa OYJ ,37,0.0,1.0,Finland,na,na,ELISA.HE,0.182978
+33,33,33, Essity AB ,80,0.0,1.0,Sweden,na,na,ESSITY B.ST,-1.0
+34,34,34, Fabege AB ,27,0.0,1.0,Sweden,na,na,FABG.ST,0.5392089999999999
+35,35,35, Fortum OYJ ,38,0.0,1.0,Finland,na,na,FORTUM.HE,0.966565
+36,36,36, GlaxoSmithKline PLC ,90,0.0,1.0,United Kingdom (UK),na,GSK,na,0.412158
+37,37,37, Hennes & Mauritz AB ,69,0.0,1.0,Sweden,na,na,HM B.ST,-1.0
+38,38,38, Hewlett Packard Enterprise Co ,90,1.0,1.0,United States of America (USA),na,HPE,na,1.5338690000000001
+39,39,39, HP Inc ,86,1.0,1.0,United States of America (USA),na,HPQ,na,1.3542889999999999
+40,40,40, Husqvarna AB ,28,0.0,1.0,Sweden,na,na,HUSQ B.ST,-1.0
+41,41,41, ICA Gruppen AB ,66,0.0,1.0,Sweden,na,na,ICA.ST,0.069908
+42,42,42, InterContinental Hotels Group PLC ,77,0.0,1.0,United Kingdom (UK),na,IHG,na,1.006686
+43,43,43, Intuit Inc ,27,0.0,1.0,United States of America (USA),INTU,na,na,0.9973799999999999
+44,44,44, Iron Mountain Inc ,52,0.0,1.0,United States of America (USA),na,IRM,na,0.795022
+46,46,46, Kellogg Co ,74,0.0,1.0,United States of America (USA),na,K,na,0.5612309999999999
+47,47,47, Keurig Dr Pepper Inc ,37,0.0,1.0,United States of America (USA),na,KDP,na,
+48,48,48, Kimberly-Clark Corp ,31,1.0,1.0,United States of America (USA),na,KMB,na,0.48461
+49,49,49, Kone OYJ ,46,1.0,1.0,Finland,na,na,KNEBV.HE,0.612158
+50,50,50, Kraft Heinz Co ,48,0.0,1.0,United States of America (USA),KHC,na,na,0.8628779999999999
+51,51,51, Las Vegas Sands Corp ,63,0.0,1.0,United States of America (USA),na,LVS,na,1.7053040000000002
+53,53,53, Linde PLC ,86,0.0,1.0,United Kingdom (UK),na,LIN,na,0.750491
+54,54,54, Mastercard Inc ,58,0.0,1.0,United States of America (USA),na,MA,na,1.072691
+55,55,55, McCormick & Co Inc/MD ,57,0.0,1.0,United States of America (USA),na,MKC.V,na,-1.0
+56,56,56, Metso OYJ ,31,1.0,1.0,Finland,na,na,METSO.HE,1.502127
+57,57,57, MGM Resorts International ,25,0.0,1.0,United States of America (USA),na,MGM,na,2.02685
+58,58,58, Microsoft Corp ,57,0.0,1.0,United States of America (USA),MSFT,na,na,0.962017
+59,59,59, Molson Coors Brewing Co ,66,0.0,1.0,United States of America (USA),na,TAP.A,na,-1.0
+60,60,60, National Grid PLC ,44,0.0,1.0,United Kingdom (UK),na,NGG,na,0.169604
+61,61,61, Neste Oyj ,83,0.0,1.0,Finland,na,na,NESTE.HE,0.5379929999999999
+62,62,62, News Corp ,23,0.0,1.0,United States of America (USA),NWSA,na,na,1.500982
+63,63,63, Nokia OYJ ,40,1.0,1.0,Finland,na,NOK,NOKIA.HE,0.224924
+64,64,64, Nomad Foods Ltd ,49,0.0,1.0,United Kingdom (UK),na,NOMD,na,0.862475
+66,66,66, Novo Nordisk A/S ,65,0.0,1.0,Denmark,na,NVO,NOVO B.CO,0.41580500000000004
+67,67,67, Novozymes A/S ,42,0.0,1.0,Denmark,na,na,NZYM B.CO,-1.0
+69,69,69, Outokumpu Oyj ,57,0.0,1.0,Finland,na,na,OUT1V.HE,1.9501509999999997
+70,70,70, Owens Corning ,90,0.0,1.0,United States of America (USA),na,OC,na,1.5507529999999998
+71,71,71, Pandora A/S ,19,0.0,1.0,Denmark,na,na,PNDORA.CO,0.603039
+72,72,72, Philip Morris International Inc ,69,0.0,1.0,United States of America (USA),na,PM,na,0.91552
+73,73,73, Principal Financial Group Inc ,30,0.0,1.0,United States of America (USA),PFG,na,na,1.664047
+74,74,74, Procter & Gamble Co ,60,0.0,1.0,United States of America (USA),na,PG,na,0.394891
+75,75,75, PVH Corp ,36,0.0,1.0,United States of America (USA),na,PVH,na,1.987557
+78,78,78, Schlumberger Ltd ,59,0.0,1.0,United States of America (USA),na,SLB,na,2.090373
+81,81,81, Skanska AB ,38,1.0,1.0,Sweden,na,na,SKA B.ST,-1.0
+82,82,82, Stanley Black & Decker Inc ,85,0.0,1.0,United States of America (USA),na,SWT,na,-1.0
+83,83,83, Stora Enso OYJ ,37,0.0,1.0,Finland,na,na,STERV.HE,1.330091
+84,84,84, Swedish Match AB ,32,0.0,1.0,Sweden,na,na,SWMA.ST,0.184194
+86,86,86, Target Corp ,41,0.0,1.0,United States of America (USA),na,TGT,na,0.6496390000000001
+87,87,87, Tele2 AB ,38,0.0,1.0,Sweden,na,na,TEL2 B.ST,-1.0
+89,89,89, Unilever NV ,90,0.0,1.0,United Kingdom (UK),na,UL,na,0.4462
+90,90,90, Union Pacific Corp ,28,0.0,1.0,United States of America (USA),na,UNP,na,1.0753110000000001
+91,91,91, UPM-Kymmene OYJ ,89,0.0,1.0,Finland,na,na,UPM.HE,1.075987
+92,92,92, Valmet OYJ ,82,0.0,1.0,Finland,na,na,VALMT.HE,0.8297869999999999
+94,94,94, Whirlpool Corp ,57,0.0,1.0,United States of America (USA),na,WHR,na,1.88867
+96,96,96, Wyndham Hotels & Resorts Inc ,18,0.0,1.0,United States of America (USA),na,WH,na,

@@ -1,0 +1,76 @@
+,Company,ESG score,Clean200,ScienceBasedTargets,Country,Symbol NQ,Symbol NYSE
+12, ABB Ltd ,44,1.0,1.0,Switzerland,na,ABB
+21, Accenture PLC ,54,1.0,1.0,Ireland,na,ACN
+45, Advanced Micro Devices Inc ,32,0.0,1.0,United States of America (USA),AMD,na
+49, AECOM ,18,0.0,1.0,United States of America (USA),na,ACM
+138, Ambev SA ,31,0.0,1.0,Brazil,na,ABEV
+142, Amdocs Ltd ,48,0.0,1.0,United States of America (USA),DOX,na
+149, American Eagle Outfitters Inc ,10,0.0,1.0,United States of America (USA),na,AEO
+239, AstraZeneca PLC ,81,0.0,1.0,United Kingdom (UK),na,AZN
+242, AT&T Inc ,72,0.0,1.0,United States of America (USA),na,TBC
+301, Ball Corp ,74,1.0,1.0,United States of America (USA),na,BLL
+321, Bancolombia SA ,85,0.0,1.0,Colombia,na,CIB
+386, Best Buy Co Inc ,53,0.0,1.0,United States of America (USA),na,BBY
+402, Biogen Inc ,83,0.0,1.0,United States of America (USA),BIIB,na
+446, British American Tobacco PLC ,83,0.0,1.0,United Kingdom (UK),na,BTI
+474, Caesars Entertainment Corp ,53,0.0,1.0,United States of America (USA),CZR,na
+482, Canadian National Railway Co ,74,1.0,1.0,Canada,na,CNI
+484, Canadian Pacific Railway Ltd ,36,1.0,1.0,Canada,na,CP
+693, CNH Industrial NV ,88,0.0,1.0,United Kingdom (UK),na,CNHI
+702, Coca-Cola European Partners PLC ,89,0.0,1.0,United Kingdom (UK),na,CCEP
+748, Corning Inc ,13,0.0,1.0,United States of America (USA),na,GLW
+775, CRH PLC ,80,0.0,1.0,Ireland,na,CRH
+787, CSX Corp ,60,1.0,1.0,United States of America (USA),CSX,na
+792, Cummins Inc ,75,0.0,1.0,United States of America (USA),na,CMI
+795, CVS Health Corp ,72,0.0,1.0,United States of America (USA),na,CVS
+835, Dell Technologies Inc ,32,0.0,1.0,United States of America (USA),na,DELL
+854, Diageo PLC ,86,0.0,1.0,United Kingdom (UK),na,DEO
+918, Ecolab Inc ,71,1.0,1.0,United States of America (USA),na,ECL
+992, EPR Properties ,6,0.0,1.0,South Africa,na,EPR^G
+1173, GlaxoSmithKline PLC ,90,0.0,1.0,United Kingdom (UK),na,GSK
+1326, Hewlett Packard Enterprise Co ,90,1.0,1.0,United States of America (USA),na,HPE
+1367, Host Hotels & Resorts Inc ,69,0.0,1.0,United States of America (USA),na,HST
+1375, HP Inc ,86,1.0,1.0,United States of America (USA),na,HPQ
+1497, InterContinental Hotels Group PLC ,77,0.0,1.0,United Kingdom (UK),na,IHG
+1513, Intuit Inc ,27,0.0,1.0,United States of America (USA),INTU,na
+1535, Iron Mountain Inc ,52,0.0,1.0,United States of America (USA),na,IRM
+1588, Johnson Controls International plc ,67,1.0,1.0,Ireland,na,JCI
+1629, Kellogg Co ,74,0.0,1.0,United States of America (USA),na,K
+1638, Keurig Dr Pepper Inc ,37,0.0,1.0,United States of America (USA),na,KDP
+1648, Kimberly-Clark Corp ,31,1.0,1.0,United States of America (USA),na,KMB
+1702, Kraft Heinz Co ,48,0.0,1.0,United States of America (USA),KHC,na
+1740, Las Vegas Sands Corp ,63,0.0,1.0,United States of America (USA),na,LVS
+1741, Latam Airlines Group SA ,75,0.0,1.0,Chile,na,LTM
+1778, Linde PLC ,86,0.0,1.0,United Kingdom (UK),na,LIN
+1867, Mastercard Inc ,58,0.0,1.0,United States of America (USA),na,MA
+1876, McCormick & Co Inc/MD ,57,0.0,1.0,United States of America (USA),na,MKC.V
+1919, MGM Resorts International ,25,0.0,1.0,United States of America (USA),na,MGM
+1924, Microsoft Corp ,57,0.0,1.0,United States of America (USA),MSFT,na
+1965, Molson Coors Brewing Co ,66,0.0,1.0,United States of America (USA),na,TAP.A
+2009, National Grid PLC ,44,0.0,1.0,United Kingdom (UK),na,NGG
+2049, News Corp ,23,0.0,1.0,United States of America (USA),NWSA,na
+2102, Nokia OYJ ,40,1.0,1.0,Finland,na,NOK
+2104, Nomad Foods Ltd ,49,0.0,1.0,United Kingdom (UK),na,NOMD
+2121, Novartis AG ,74,0.0,1.0,Switzerland,na,NVS
+2124, Novo Nordisk A/S ,65,0.0,1.0,Denmark,na,NVO
+2178, Orange SA ,43,0.0,1.0,France,na,ORAN
+2203, Owens Corning ,90,0.0,1.0,United States of America (USA),na,OC
+2261, Philip Morris International Inc ,69,0.0,1.0,United States of America (USA),na,PM
+2317, Principal Financial Group Inc ,30,0.0,1.0,United States of America (USA),PFG,na
+2318, Procter & Gamble Co ,60,0.0,1.0,United States of America (USA),na,PG
+2346, PVH Corp ,36,0.0,1.0,United States of America (USA),na,PVH
+2493, Sanofi ,82,0.0,1.0,France,SNY,na
+2498, SAP SE ,69,1.0,1.0,Germany,na,SAP
+2514, Schlumberger Ltd ,59,0.0,1.0,United States of America (USA),na,SLB
+2521, Seagate Technology PLC ,32,0.0,1.0,Ireland,STX,na
+2634, SK Telecom Co Ltd ,84,0.0,1.0,South Korea,na,SKM
+2713, Stanley Black & Decker Inc ,85,0.0,1.0,United States of America (USA),na,SWT
+2800, Taiwan Semiconductor Manufacturing Co Ltd ,87,1.0,1.0,"Taiwan, Province of China",na,TSM
+2809, Target Corp ,41,0.0,1.0,United States of America (USA),na,TGT
+2877, Thomson Reuters Corp ,26,0.0,1.0,Canada,na,TRI
+2979, Unilever NV ,90,0.0,1.0,United Kingdom (UK),na,UL
+2982, Union Pacific Corp ,28,0.0,1.0,United States of America (USA),na,UNP
+3094, Westpac Banking Corp ,83,0.0,1.0,Australia,na,WBK
+3103, Whirlpool Corp ,57,0.0,1.0,United States of America (USA),na,WHR
+3113, Wipro Ltd ,80,0.0,1.0,India,na,WIT
+3138, Wyndham Hotels & Resorts Inc ,18,0.0,1.0,United States of America (USA),na,WH
