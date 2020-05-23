@@ -14,7 +14,7 @@ Created on Thu Apr 30 16:27:05 2020
 """
 
 global data
-data = pd.read_csv('data/data_combined.csv',index_col=0)
+data = pd.read_csv('data/version_13.csv',index_col=0)
 objectives = ['Expected return', 
               'Sustainability',
               'Dividend yield',

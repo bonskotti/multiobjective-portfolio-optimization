@@ -33,7 +33,7 @@ for a in soup.findAll('div', attrs={'class':re.compile("mix item")}):
     scores_sam.append(a.find('div', attrs={'class':'percentile'}).text)
     
 # parse nasdaq webpage
-page = open('../data/Nordic Large Cap - Listed Companies - Nasdaq.html', 'r', encoding='utf-8')
+page = open('data/Nordic Large Cap - Listed Companies - Nasdaq.html', 'r', encoding='utf-8')
 soup = BeautifulSoup(page,features='html.parser')
 
 companies = []

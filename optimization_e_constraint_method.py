@@ -68,7 +68,7 @@ def rule(model, params):
 
 def solve_problem(params,
                   names,
-                  objectives,
+                  #objectives,
                   obj_i,
                   constraints,
                   b_tol):
@@ -158,13 +158,8 @@ def solve_problem(params,
     return res
     
 
-data = pd.read_csv('../data/data_combined.csv')
+data = pd.read_csv('data/version_13.csv')
 n,p = params(data)
-objectives = ['Expected return',
-         'Sustainability',
-         'Dividend yield',
-         'Clean energy use',
-         'P/E ratio']
 obj_i = 4
 constraints = [
                 0.09 # return
@@ -174,4 +169,3 @@ constraints = [
                #,15 # p/e ratio
                ]
 b_tol = 0.1
-solve_problem(p,n,objectives,obj_i,constraints,b_tol)

@@ -223,11 +223,11 @@ def capm(beta, rf, mrp):
         
    
 # read the data
-df_nasdaq = pd.read_csv('../data/^IXIC.csv')
-df_nyse = pd.read_csv('../data/^NYA.csv')
-df_co = pd.read_csv('../data/^OMXC20.csv').dropna(axis=0,how='any') # drop rows with null-values
-df_he = pd.read_csv('../data/^OMXH25.csv').dropna(axis=0,how='any')
-df_st = pd.read_csv('../data/^OMX.csv').dropna(axis=0,how='any')
+df_nasdaq = pd.read_csv('data/^IXIC.csv')
+df_nyse = pd.read_csv('data/^NYA.csv')
+df_co = pd.read_csv('data/^OMXC20.csv').dropna(axis=0,how='any') # drop rows with null-values
+df_he = pd.read_csv('data/^OMXH25.csv').dropna(axis=0,how='any')
+df_st = pd.read_csv('data/^OMX.csv').dropna(axis=0,how='any')
 markets = [df_nasdaq,df_nyse,df_co,df_he,df_st]
 names = ['Nasdaq','NYSE','CO','HE','ST']
 
@@ -240,26 +240,26 @@ annual_returns['Risk free rate'] = rf_rates
 # market premium = average market return - risk free rate
 annual_returns['Market risk premium'] = annual_returns['Average Return']-annual_returns['Risk free rate']
 
-annual_returns.to_csv('../data/market_data.csv')
+annual_returns.to_csv('data/market_data.csv')
 
 
 # ==== 2. getting stock betas =====
 
 #  get data
-df_companies = pd.read_csv('../data/combined_data.csv')
+df_companies = pd.read_csv('data/combined_data.csv')
 
 # for using yahoo finance database , nordic companies need a stock market suffix to the end
 # of the stock symbols: e.g. "FORTUM.HE" = "Stock market of Helsinki"
-df_symbols_nq_north = df_companies.loc[:,['Country','Symbol NQ North']]
+df_symbols_nq_north = df_companies.loc[:,['Country','Symbol NQ_North']]
 countries = ['Finland','Sweden','Denmark']
 suffixes = ['.HE','.ST','.CO']
 for c in range(len(countries)):
-   df_symbols_nq_north.loc[df_symbols_nq_north['Country'] == countries[c], 'Symbol NQ North'] +=suffixes[c] 
+   df_symbols_nq_north.loc[df_symbols_nq_north['Country'] == countries[c], 'Symbol NQ_North'] +=suffixes[c] 
 
 # in nordic markets, some stocks are "A, B or C"- types. 
 # in these casesm the spelling in yahoo requires a dash instead of a space.
 # E.g. "TEL2 B.ST" has to be TEL2-B.ST"
-list_symbols = df_symbols_nq_north['Symbol NQ North'].values
+list_symbols = df_symbols_nq_north['Symbol NQ_North'].values
 letters = ['A','B','C']
 for s in range(len(list_symbols)):
     try:
@@ -273,16 +273,16 @@ for s in range(len(list_symbols)):
 df_companies['Symbol NQ North'] = list_symbols
 df_companies = df_companies.drop(axis=0,columns=['Unnamed: 0','Unnamed: 0.1','Unnamed: 0.1.1'])
 print(df_companies.head())
-
+"""
 # drop companies for which stock symbols aren't available
 df_companies = df_companies.loc[(df_companies['Symbol NQ'] != 'na')\
                                 | (df_companies['Symbol NYSE'] != 'na')\
-                                | (df_companies['Symbol NQ North'] != 'na')]
-
+                                | (df_companies['Symbol NQ_North'] != 'na')]
+"""
 # extract stock symbols and save into a list. 
 # in the data, there is three columns for different markets, but only most companies
 # are only listed on one market.
-df_symbols = df_companies.loc[:,'Symbol NQ':'Symbol NQ North']
+df_symbols = df_companies.loc[:,'Symbol NQ':'Symbol NQ_North']
 
 list_symbols = []
 for i in range(len(df_symbols)):
@@ -303,12 +303,12 @@ df_companies['P/E'] = pe
 
 # drop rows with missing data
 df_companies = df_companies.dropna(axis=0,how='any',subset=['Beta','Dividend yield','P/E'])
-df_companies.to_csv('../data/version_9.csv')
+df_companies.to_csv('data/data_combined.csv')
 
-data = pd.read_csv('../data/version_12.csv')
-md = pd.read_csv('../data/market_data.csv')
+data = pd.read_csv('data/data_combined.csv')
+md = pd.read_csv('data/market_data.csv')
 rf = md['Risk free rate']
 mrp = md['Market risk premium']
 ers = er(data, rf, mrp)
 data['Expected return'] = ers
-data.to_csv('../data/data_combined.csv')
+data.to_csv('data/data_combined.csv')

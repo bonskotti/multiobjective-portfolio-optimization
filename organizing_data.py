@@ -213,12 +213,12 @@ def find_common_words(df, stock_market):
 # ====================================================================================   
 
 # importing data
-df_clean = pd.read_csv('../data/clean200.csv')
-df_robeco = pd.read_csv('../data/robecosam.csv')
-df_sbt = pd.read_csv('../data/sciencebasedtargets.csv')
-df_symbols_nq = pd.read_csv('../data/symbols_nasdaq.csv')
-df_symbols_nyse = pd.read_csv('../data/symbols_nyse.csv')
-df_symbols_nordic = pd.read_csv('../data/symbols_nasdaq_nordic.csv')
+df_clean = pd.read_csv('data/clean200.csv')
+df_robeco = pd.read_csv('data/robecosam.csv')
+df_sbt = pd.read_csv('data/sciencebasedtargets.csv')
+df_symbols_nq = pd.read_csv('data/symbols_nasdaq.csv')
+df_symbols_nyse = pd.read_csv('data/symbols_nyse.csv')
+df_symbols_nordic = pd.read_csv('data/symbols_nasdaq_nordic.csv')
 
 # checking the occurances of companies between three rating lists
 clean_bools, sbt_bools, countries = check_occurances(df_robeco, df_clean, df_sbt)
@@ -243,4 +243,4 @@ df_final = df_robeco.loc[(df_robeco['Symbol NQ'] != 'na') \
                         |(df_robeco['Symbol NYSE'] != 'na') \
                         |(df_robeco['Symbol NQ_North'] != 'na')]
 
-df_final.to_csv('../data/combined_data.csv')
+df_final.to_csv('data/combined_data.csv')
