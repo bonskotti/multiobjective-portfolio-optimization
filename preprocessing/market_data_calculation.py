@@ -246,7 +246,7 @@ annual_returns.to_csv('../data/market_data.csv')
 # ==== 2. getting stock betas =====
 
 #  get data
-df_companies = pd.read_csv('../data/version_8.csv')
+df_companies = pd.read_csv('../data/combined_data.csv')
 
 # for using yahoo finance database , nordic companies need a stock market suffix to the end
 # of the stock symbols: e.g. "FORTUM.HE" = "Stock market of Helsinki"

@@ -99,7 +99,8 @@ def solve_problem(params,
 
     Returns
     -------
-    None.
+    res : pyomo.opt.results.results_.SolverResults
+        optimization result.
 
     """
     
@@ -115,12 +116,14 @@ def solve_problem(params,
         # p/e ratio minimized
         model.obj =  Objective(expr=rule(model,params[obj_i+2]))
     
-    # constraints
     # delete objective function from params
     del params[obj_i+2]
-    # beta
+    
+    # beta constraint
     model.beta_geq = Constraint(expr = rule(model,params[1]) <=1+b_tol)
     model.beta_leq = Constraint(expr = rule(model,params[1]) >=1-b_tol)
+    
+    # constraints
     model.c1 = Constraint(expr = rule(model,params[0]+2) >= constraints[0])
     model.c2 = Constraint(expr = rule(model,params[1]+2) >= constraints[1])
     model.c3 = Constraint(expr = rule(model,params[2]+2) >= constraints[2])
@@ -130,22 +133,13 @@ def solve_problem(params,
         # p/e ratio is as objective function
         model.c4 = Constraint(expr = rule(model,params[3]+2) >= constraints[3])
     
-    """
-    # sustainability
-    model.sustainability = Constraint(expr = rule(model,sustainabilities) >= 0.4)
-    # clean energy use
-    model.clean = Constraint(expr = rule(model,cleans) >= 1)
-    # dividend yield
-    model.dy = Constraint(expr = rule(model,dys) >= 5)
-    # p/e ratio
-    model.pe = Constraint(expr = rule(model,pes) <= 20)
-    """
     # sum of weights
     model.sum_weights = Constraint(expr = rule(model,np.ones(len(data))) == 1)
     
     # solve
     opt = SolverFactory('glpk')
     res = opt.solve(model, tee=True)
+    print(type(res))
     
     print("\nObjective function value")
     
@@ -161,8 +155,10 @@ def solve_problem(params,
             w.append(model.x[j].value)
             print(names[j] + str(model.x[j].value))
     
+    return res
+    
 
-data = pd.read_csv('../data/version_13.csv')
+data = pd.read_csv('../data/data_combined.csv')
 n,p = params(data)
 objectives = ['Expected return',
          'Sustainability',
@@ -170,6 +166,12 @@ objectives = ['Expected return',
          'Clean energy use',
          'P/E ratio']
 obj_i = 4
-constraints = [9,0.6,2,1]
+constraints = [
+                0.09 # return
+               ,0.6 # sustainability
+               ,2   # dividend yield
+               ,1   # clean energy use
+               #,15 # p/e ratio
+               ]
 b_tol = 0.1
 solve_problem(p,n,objectives,obj_i,constraints,b_tol)

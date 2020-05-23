@@ -219,16 +219,14 @@ df_sbt = pd.read_csv('../data/sciencebasedtargets.csv')
 df_symbols_nq = pd.read_csv('../data/symbols_nasdaq.csv')
 df_symbols_nyse = pd.read_csv('../data/symbols_nyse.csv')
 df_symbols_nordic = pd.read_csv('../data/symbols_nasdaq_nordic.csv')
-df_combined = pd.read_csv('../data/combined_data.csv')
-symbols_nordic = check_symbols(df_combined,df_symbols_nordic, 'Symbol NQ North')
-df_combined['Symbol NQ North'] = symbols_nordic
-df_combined.to_csv('../data/version_8.csv')
 
 # checking the occurances of companies between three rating lists
 clean_bools, sbt_bools, countries = check_occurances(df_robeco, df_clean, df_sbt)
 
-# finding the stock symbols for companies from nasdaq symbol list 
-symbols = check_symbols(df_robeco,df_symbols_nq, 'Symbol NQ')
+# finding the stock symbols for companies from stock symbol lists 
+symbols_nq = check_symbols(df_robeco,df_symbols_nq, 'Symbol NQ')
+symbols_nyse = check_symbols(df_robeco,df_symbols_nyse, 'Symbol NYSE')
+symbols_nordic = check_symbols(df_robeco,df_symbols_nordic, 'Symbol NQ North')
        
 # adding colums to dataframe, containing information about company's 
 # occurance in clean200's and sciencebasedtargets' lists, plus the origin
@@ -236,13 +234,13 @@ symbols = check_symbols(df_robeco,df_symbols_nq, 'Symbol NQ')
 df_robeco['Clean200'] = clean_bools
 df_robeco['ScienceBasedTargets'] = sbt_bools
 df_robeco['Country'] = countries
-df_robeco['Symbol NQ'] = symbols
+df_robeco['Symbol NQ'] = symbols_nq
+df_robeco['Symbol NYSE'] = symbols_nyse
+df_robeco['Symbol NQ_North'] = symbols_nordic
 
-# examining the matches got
-cleans = df_robeco.loc[df_robeco['Clean200'] == 1]
-print(cleans, len(cleans))   
-sbts = df_robeco.loc[df_robeco['ScienceBasedTargets'] == 1]
-boths = df_robeco.loc[(df_robeco['Clean200'] == 1) & (df_robeco['ScienceBasedTargets'] == 1)]
-print(df_robeco.head())
+# drop rows for which stock symbol was not found
+df_final = df_robeco.loc[(df_robeco['Symbol NQ'] != 'na') \
+                        |(df_robeco['Symbol NYSE'] != 'na') \
+                        |(df_robeco['Symbol NQ_North'] != 'na')]
 
-df_robeco.to_csv('../data/combined_data.csv')
+df_final.to_csv('../data/combined_data.csv')

@@ -14,7 +14,7 @@ Created on Thu Apr 30 16:27:05 2020
 """
 
 global data
-data = pd.read_csv('data/version_13.csv',index_col=0)
+data = pd.read_csv('data/data_combined.csv',index_col=0)
 objectives = ['Expected return', 
               'Sustainability',
               'Dividend yield',
@@ -334,9 +334,7 @@ def solve_problem(f,x_start,ref,b_tol):
     
     return res
     
-#x0 = np.zeros(2)
-#x0 = [0.5,0.5]
-#x0 = np.zeros(10)
+
 n = 30
 x0 = [1/n]*n # start with equal weights
 ref = [0.1,0.5,3,1,15]
