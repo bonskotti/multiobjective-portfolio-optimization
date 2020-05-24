@@ -49,5 +49,16 @@ Optimization is performed using two methods,
 1. Epsilon-constraint method.
 2. Reference point method.
 
-# to be continued>
+### Results
+
+**Epsilon constraint method**
+
+Some of the Pareto optimal solutions with 
+1. expected return
+2.clean energy use
+as objectives functions to be optimized:
+
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+
+
 
