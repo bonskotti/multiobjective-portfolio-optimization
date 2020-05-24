@@ -51,7 +51,7 @@ Optimization is performed using two methods,
 
 ### Results
 
-**Epsilon constraint method**
+**1. Epsilon constraint method**
 
 Some of the Pareto optimal solutions obtained:
 
@@ -59,3 +59,13 @@ Some of the Pareto optimal solutions obtained:
 
 
 ![Alt text](img/e_constraint_4.png?raw=true "Title")
+
+**2. Reference point method**
+
+Due to computationally expensive ideal and nadir- vector calculations, these results were obtained with subsets of data.
+
+![Alt text](img/ref_point_1.png?raw=true "Title")
+
+![Alt text](img/ref_point_2.png?raw=true "Title")
+
+
