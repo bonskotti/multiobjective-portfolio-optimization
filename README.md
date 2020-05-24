@@ -2,17 +2,14 @@
 
 In this repository, multiobjective portfolio optimization is performed using two different optimization methods. In addition to traditional financial objectives, the optimization methods take in consideration environmental, social, and governance sustainability of portfolio.
 
+----
 ### Problem description
 
 Portfolio optimization traditionally aims to select assets that bring the most return on investment with the least risk. However, for some investors, there are also other factors to consider in addition to direct financial gain. Technology has made stock investing more easily approachable than ever, and growing number of new investors search not only to get return on their money but also to invest in companies with sustainable business. The term ESG-investing means buying in companies with their environmental, social, and governance strategies in consideration.
 
 ### Data
 
-<<<<<<< HEAD
-ESG-related data is from three sources:
-=======
 **ESG-related data** is from three sources:
->>>>>>> 853a05767d9ae23332e627ccc8aeb8b35636f5be
 
 1. Robecosam ranks companies by ESG-scores, from 0 to 100. https://yearbook.robecosam.com/ranking/
 
@@ -20,13 +17,13 @@ ESG-related data is from three sources:
 
 3.  ScienceBasedTargets ranks companies by their science-based climate actions. No scores, company either is on the list or not. https://sciencebasedtargets.org/companies-taking-action/
 
-<<<<<<< HEAD
-=======
 **Financial data** is from two sources:
 
 1. Yahoo Finance
 
 2. Nasdaq
+
+After preprocessing, final dataset consists of 361 companies, listed in NYSE, NASDAQ, OMXCO, OMXHE, and OMXST.
 
 ### Modeling
 
@@ -57,15 +54,17 @@ Optimization is performed using two methods,
 
 ### Results
 
-**Epsilon constraint method**
+**1. Epsilon constraint method**
 
-Some of the Pareto optimal solutions with 
-1. expected return
-2.clean energy use
-as objectives functions to be optimized:
+Some of the Pareto optimal solutions obtained:
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](img/e_constraint_3.png?raw=true "Title")
 
 
+![Alt text](img/e_constraint_4.png?raw=true "Title")
 
->>>>>>> 853a05767d9ae23332e627ccc8aeb8b35636f5be
+**2. Reference point method**
+
+![Alt text](img/ref_point_2.png?raw=true "Title")
+
+----
