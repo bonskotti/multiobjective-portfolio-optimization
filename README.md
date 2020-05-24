@@ -8,11 +8,7 @@ Portfolio optimization traditionally aims to select assets that bring the most r
 
 ### Data
 
-<<<<<<< HEAD
-ESG-related data is from three sources:
-=======
 **ESG-related data** is from three sources:
->>>>>>> 853a05767d9ae23332e627ccc8aeb8b35636f5be
 
 1. Robecosam ranks companies by ESG-scores, from 0 to 100. https://yearbook.robecosam.com/ranking/
 
@@ -20,8 +16,6 @@ ESG-related data is from three sources:
 
 3.  ScienceBasedTargets ranks companies by their science-based climate actions. No scores, company either is on the list or not. https://sciencebasedtargets.org/companies-taking-action/
 
-<<<<<<< HEAD
-=======
 **Financial data** is from two sources:
 
 1. Yahoo Finance
@@ -59,13 +53,9 @@ Optimization is performed using two methods,
 
 **Epsilon constraint method**
 
-Some of the Pareto optimal solutions with 
-1. expected return
-2.clean energy use
-as objectives functions to be optimized:
+Some of the Pareto optimal solutions obtained:
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](img/e_constraint_3.png?raw=true "Title")
 
 
-
->>>>>>> 853a05767d9ae23332e627ccc8aeb8b35636f5be
+![Alt text](img/e_constraint_4.png?raw=true "Title")
