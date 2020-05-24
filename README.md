@@ -8,7 +8,11 @@ Portfolio optimization traditionally aims to select assets that bring the most r
 
 ### Data
 
+<<<<<<< HEAD
 ESG-related data is from three sources:
+=======
+**ESG-related data** is from three sources:
+>>>>>>> 853a05767d9ae23332e627ccc8aeb8b35636f5be
 
 1. Robecosam ranks companies by ESG-scores, from 0 to 100. https://yearbook.robecosam.com/ranking/
 
@@ -16,3 +20,52 @@ ESG-related data is from three sources:
 
 3.  ScienceBasedTargets ranks companies by their science-based climate actions. No scores, company either is on the list or not. https://sciencebasedtargets.org/companies-taking-action/
 
+<<<<<<< HEAD
+=======
+**Financial data** is from two sources:
+
+1. Yahoo Finance
+
+2. Nasdaq
+
+### Modeling
+
+For objectives, following are used:
+
+1. Maximize expected return.
+2. Maximize environmental, social, and corporate- sustainability.
+3. Maximize dividend yield.
+4. Maximize clean energy use.
+5. Minimize price-earnings ratio.
+6. Optimize portfolio volatility.
+
+*In this problem, portfolio volatility is optimized using Sharpe's beta. Portfolio is set to be as volatile as whole market in average, so beta is aimed to be equal to 1.*
+
+For **decision variables**, proportional amount (weight) to invest in company i is used.
+
+For **constraints**, 
+
+1. Sum of weights should be equal to one.
+2. Weight of a single asset should be between 0 and 1.
+
+### Optimization
+
+Optimization is performed using two methods,
+
+1. Epsilon-constraint method.
+2. Reference point method.
+
+### Results
+
+**Epsilon constraint method**
+
+Some of the Pareto optimal solutions with 
+1. expected return
+2.clean energy use
+as objectives functions to be optimized:
+
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+
+
+
+>>>>>>> 853a05767d9ae23332e627ccc8aeb8b35636f5be
