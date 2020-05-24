@@ -1,13 +1,15 @@
 # Multiobjective portfolio optimization
 
+![Alt text](img/sm_crop.jpg?raw=true "Title")
+
 In this repository, multiobjective portfolio optimization is performed using two different optimization methods. In addition to traditional financial objectives, the optimization methods take in consideration environmental, social, and governance sustainability of portfolio.
 
 ----
-### Problem description
+## Problem description
 
 Portfolio optimization traditionally aims to select assets that bring the most return on investment with the least risk. However, for some investors, there are also other factors to consider in addition to direct financial gain. Technology has made stock investing more easily approachable than ever, and growing number of new investors search not only to get return on their money but also to invest in companies with sustainable business. The term ESG-investing means buying in companies with their environmental, social, and governance strategies in consideration.
 
-### Data
+## Data
 
 **ESG-related data** is from three sources:
 
@@ -25,7 +27,7 @@ Portfolio optimization traditionally aims to select assets that bring the most r
 
 After preprocessing, final dataset consists of 361 companies, listed in NYSE, NASDAQ, OMXCO, OMXHE, and OMXST.
 
-### Modeling
+## Modeling
 
 For objectives, following are used:
 
@@ -45,14 +47,14 @@ For **constraints**,
 1. Sum of weights should be equal to one.
 2. Weight of a single asset should be between 0 and 1.
 
-### Optimization
+## Optimization
 
 Optimization is performed using two methods,
 
 1. Epsilon-constraint method.
 2. Reference point method.
 
-### Results
+## Results
 
 **1. Epsilon constraint method**
 
