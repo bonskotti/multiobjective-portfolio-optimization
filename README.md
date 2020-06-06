@@ -109,10 +109,71 @@ Some of the Pareto optimal solutions obtained:
 
 ![Alt text](img/ref_point_2.png?raw=true "Title")
 
+----
+
 ## Interactive solver
 
 Both of the optimization methods can be used interactively with the decision maker. To demonstrate this, a simple CLI-based solver application is under development. At the moment, the solver supports epsilon-constraint method. 
 
 ### Usage
 
-Simply run [optimization_e_constraint_method.py](../blob/master/optimization_e_constraint_method.py)
+Simply run [solver.py](../blob/master/solver.py).
+
+### Example usage
+```
+Select your optimization method : 
+Epsilon constraint method, press 1          
+Reference point method, press 2 (not yet available)
+> 1
+
+Select an objective to be optimized:
+                    Expected return, press 1
+                    Sustainability, press 2
+                    Dividend yield, press 3
+                    Clean energy use, press 4
+                    P/E ratio, press 5
+>4
+Set bounds for other objectives.
+
+Bound for Expected return: 0.09
+
+Bound for Sustainability: 0.7
+
+Bound for Dividend yield: 2
+
+Bound for P/E ratio: 20
+```
+
+**Results in**
+
+```
+Beta
+0.9
+
+Companies to invest in:
+ ABB Ltd 0.05
+ Accenture PLC 0.05
+ Amdocs Ltd 0.05
+ AstraZeneca PLC 0.05
+ Ball Corp 0.05
+ Canadian Pacific Railway Ltd 0.05
+ Castellum AB 0.0490507539982457
+ CNH Industrial NV 0.000949246001754104
+ Coca-Cola European Partners PLC 0.05
+ CRH PLC 0.05
+ CSX Corp 0.05
+ Cummins Inc 0.05
+ Ecolab Inc 0.05
+ Electrolux AB 0.05
+ HP Inc 0.05
+ Johnson Controls International plc 0.05
+ Kimberly-Clark Corp 0.05
+ Kone OYJ 0.05
+ Metso OYJ 0.05
+ SAP SE 0.05
+ Skanska AB 0.05
+
+```
+
+----
+
