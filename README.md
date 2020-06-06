@@ -117,7 +117,7 @@ Both of the optimization methods can be used interactively with the decision mak
 
 ### Usage
 
-Simply run [solver.py](../blob/master/solver.py).
+Simply run [solver.py](../master/solver.py).
 
 ### Example usage
 ```
