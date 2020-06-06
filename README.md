@@ -39,6 +39,14 @@ solve_problem(p,n,obj_i,constraints,b_tol)
 ### Example usage - Reference point method
 
 ```
+global data
+data = pd.read_csv('data/final_data.csv',index_col=0) # load data
+objectives = ['Expected return', 
+              'Sustainability',
+              'Dividend yield',
+              'Clean energy use',
+              'P/E ratio'] 
+              
 n = 30 # number of companies
 x0 = [1/n]*n # start with equal weights
 ref = [0.1,0.5,3,1,15] # aspiration levels for objectives
