@@ -59,9 +59,9 @@ df_nn = pd.DataFrame({'Name':companies, 'Symbol':symbols})
 df_nn.to_csv(r'data\symbols_nasdaq_nordic.csv',index=False,encoding='utf8')
 
 # convert excel files to csv
-clean200 = pd.read_excel(r'C:\Users\User\kurssit\TIES583\project\data\clean200.xlsx')
+clean200 = pd.read_excel(r'data\clean200.xlsx')
 clean200.to_csv(r'data\clean200.csv', index = None)
-sbt = pd.read_excel(r'C:\Users\User\kurssit\TIES583\project\data\sciencebasedtargets.xlsx')
+sbt = pd.read_excel(r'data\sciencebasedtargets.xlsx')
 sbt.to_csv(r'data\sciencebasedtargets.csv', index = None)
 
 # extract company names from sciencebasedtargets list 
