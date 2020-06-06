@@ -9,6 +9,46 @@ In this repository, multiobjective portfolio optimization is performed using two
 
 Portfolio optimization traditionally aims to select assets that bring the most return on investment with the least risk. However, for some investors, there are also other factors to consider in addition to direct financial gain. Technology has made stock investing more easily approachable than ever, and growing number of new investors search not only to get return on their money but also to invest in companies with sustainable business. The term ESG-investing means buying in companies with their environmental, social, and governance strategies in consideration.
 
+## Quick start
+
+1. Clone this repository using `git clone https://github.com/bonskotti/multiobjective-portfolio-optimization.git`
+
+2. Install requirements using `pip install -r requirements.txt`. In addition, you should have [Glpk](https://www.gnu.org/software/glpk/) installed. Easy way to do so is with conda: `conda install glpk`.
+
+3. Run either [optimization_e_constraint_method.py](../blob/master/optimization_e_constraint_method.py) or [optimization_ref_point_method.py](../blob/master/optimization_ref_point_method.py) to solve the problem.
+
+### Example usage - e-constraint method
+
+```
+data = pd.read_csv('data/final_data.csv') # load data
+n,p = params(data) # organize parameters and get names of companies
+obj_i = 4 # select objective to be optimized
+
+# set constraints
+constraints = [
+                0.09 # return
+               ,0.6 # sustainability
+               ,2   # dividend yield
+               ,1   # clean energy use
+               #,15 # p/e ratio
+               ]
+               
+b_tol = 0.1 # tolerance for beta
+solve_problem(p,n,obj_i,constraints,b_tol)
+```
+### Example usage - Reference point method
+
+```
+n = 30 # number of companies
+x0 = [1/n]*n # start with equal weights
+ref = [0.1,0.5,3,1,15] # aspiration levels for objectives
+tol = 0.1 # tolerance for beta constraint
+solve_problem(f,x0,ref,tol)
+```
+**Note**: Calculation of ideal and nadir vectors is computationally expensive - if you are in a hurry, decrease the number of companies (n) when solving with reference point method.
+
+----
+
 ## Data
 
 **ESG-related data** is from three sources:
@@ -69,4 +109,10 @@ Some of the Pareto optimal solutions obtained:
 
 ![Alt text](img/ref_point_2.png?raw=true "Title")
 
-----
+## Interactive solver
+
+Both of the optimization methods can be used interactively with the decision maker. To demonstrate this, a simple CLI-based solver application is under development. At the moment, the solver supports epsilon-constraint method. 
+
+### Usage
+
+Simply run [optimization_e_constraint_method.py](../blob/master/optimization_e_constraint_method.py)
