@@ -19,7 +19,8 @@ Created on Fri Apr  3 20:51:17 2020
 
 # 1)
 # parsing the webpage with beautifulsoup
-url = "https://yearbook.robecosam.com/ranking/"
+#url = "https://yearbook.robecosam.com/ranking/"
+url = "https://www.spglobal.com/esg/csa/yearbook/ranking/"
 page = urllib.request.urlopen(url)
 soup = BeautifulSoup(page,features='html.parser')
 
@@ -51,22 +52,22 @@ for t in table:
 # 2)
 # storing the data in usable format
 df = pd.DataFrame({'Company':companies_sam, 'ESG score':scores_sam})
-df.to_csv(r'..\data\robecosam.csv',index=False,encoding='utf8')
+df.to_csv(r'data\robecosam.csv',index=False,encoding='utf8')
 
 # storing the data in usable format
 df_nn = pd.DataFrame({'Name':companies, 'Symbol':symbols})
-df_nn.to_csv(r'..\data\symbols_nasdaq_nordic.csv',index=False,encoding='utf8')
+df_nn.to_csv(r'data\symbols_nasdaq_nordic.csv',index=False,encoding='utf8')
 
 # convert excel files to csv
 clean200 = pd.read_excel(r'C:\Users\User\kurssit\TIES583\project\data\clean200.xlsx')
-clean200.to_csv(r'..\data\clean200.csv', index = None)
+clean200.to_csv(r'data\clean200.csv', index = None)
 sbt = pd.read_excel(r'C:\Users\User\kurssit\TIES583\project\data\sciencebasedtargets.xlsx')
-sbt.to_csv(r'..\data\sciencebasedtargets.csv', index = None)
+sbt.to_csv(r'data\sciencebasedtargets.csv', index = None)
 
 # extract company names from sciencebasedtargets list 
 # (only names, no scores or ratings included in rating)
 companies_sbt = [] 
-with open('..\data\sciencebasedtargets.csv', encoding='utf-8') as f:
+with open('data\sciencebasedtargets.csv', encoding='utf-8') as f:
     r = csv.reader(f)
     for row in r:
         companies_sbt.append(row[0])        

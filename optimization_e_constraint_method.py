@@ -137,7 +137,7 @@ def solve_problem(params,
     model.sum_weights = Constraint(expr = rule(model,np.ones(len(data))) == 1)
     
     # solve
-    opt = SolverFactory('glpk')
+    opt = SolverFactory("glpk")
     res = opt.solve(model, tee=True)
     print(type(res))
     
@@ -158,7 +158,7 @@ def solve_problem(params,
     return res
     
 
-data = pd.read_csv('data/version_13.csv')
+data = pd.read_csv('data/final_data.csv')
 n,p = params(data)
 obj_i = 4
 constraints = [
@@ -169,3 +169,4 @@ constraints = [
                #,15 # p/e ratio
                ]
 b_tol = 0.1
+solve_problem(p,n,obj_i,constraints,b_tol)

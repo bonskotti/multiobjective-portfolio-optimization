@@ -246,7 +246,7 @@ annual_returns.to_csv('data/market_data.csv')
 # ==== 2. getting stock betas =====
 
 #  get data
-df_companies = pd.read_csv('data/combined_data.csv')
+df_companies = pd.read_csv('data/combined_data.csv',index_col=0)
 
 # for using yahoo finance database , nordic companies need a stock market suffix to the end
 # of the stock symbols: e.g. "FORTUM.HE" = "Stock market of Helsinki"
@@ -271,7 +271,7 @@ for s in range(len(list_symbols)):
 
 # replace with edited stock symbols
 df_companies['Symbol NQ North'] = list_symbols
-df_companies = df_companies.drop(axis=0,columns=['Unnamed: 0','Unnamed: 0.1','Unnamed: 0.1.1'])
+#df_companies = df_companies.drop(axis=0,columns=['Unnamed: 0','Unnamed: 0.1','Unnamed: 0.1.1'])
 print(df_companies.head())
 """
 # drop companies for which stock symbols aren't available

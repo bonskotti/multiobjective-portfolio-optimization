@@ -43,7 +43,7 @@ def init_data(obj_i):
         name of objective to be optimized.
 
     """
-    data = pd.read_csv('data/version_13.csv')
+    data = pd.read_csv('data/final_data.csv')
     objectives = ['Expected return',
          'Sustainability',
          'Dividend yield',
