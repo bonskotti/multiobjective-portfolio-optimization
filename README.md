@@ -15,7 +15,7 @@ Portfolio optimization traditionally aims to select assets that bring the most r
 
 2. Install requirements using `pip install -r requirements.txt`. In addition, you should have [Glpk](https://www.gnu.org/software/glpk/) installed. Easy way to do so is with conda: `conda install glpk`.
 
-3. Run either [optimization_e_constraint_method.py](../blob/master/optimization_e_constraint_method.py) or [optimization_ref_point_method.py](../blob/master/optimization_ref_point_method.py) to solve the problem.
+3. Run either [optimization_e_constraint_method.py](../master/optimization_e_constraint_method.py) or [optimization_ref_point_method.py](../master/optimization_ref_point_method.py) to solve the problem.
 
 ### Example usage - e-constraint method
 
