@@ -16,7 +16,7 @@ pytz==2020.1
 PyUtilib==5.8.0
 scipy==1.4.1
 soupsieve==2.0.1
-urllib3==1.25.9
+urllib3==1.26.5
 wincertstore==0.2
 xlrd==1.2.0
 yfinance==0.1.54
